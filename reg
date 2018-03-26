@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>Your Design</title>
+	<link rel="stylesheet" href="style.css" type="text/css" />
+  </head>
+  <body class="body">
+  
+  <header class="mainheader">
+  <img src="logo.png" />
+  
+  <nav>
+  <ul>
+  <li><a href="index.html">Home</a></li>
+  <li><a href="#">Products</a>
+  
+  <ul>
+  <li><a href="bp.html">Building Products</a></li>
+  <li><a href="floor.html">Flooring</a></li>
+  <li><a href="furniture.html">Furniture</a></li>
+  <li><a href="kab.html">Kitchen & Bath</a></li>
+  <li><a href="lighting.html">Lighting</a></li>
+  <li><a href="textile.html">Textiles</a></li>
+  <li><a href="wc.html">Wall Coverings</a></li>
+  </ul>
+  </li>
+  <li><a href="#">Portfolio</a>
+  
+  <ul>
+  <li><a href="res.html">Residential</a></li>
+  <li><a href="commercial.html">Commercial</a></li>
+  </ul>
+  </li>
+  <li><a href="service.html">Services</a></li>
+  <li><a href="contact.html">Contact</a></li>
+  </ul>
+  </nav>
+  </header>
+  
+  <div class="maincontent">
+  <div class="content">
+  <article class="topcontent">
+  <content>
+ <table align="center">
+	<tr>
+		<td>
+			<p><font size="4" color="navy">First name<font color="red">*</font>:&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;</font><input type="text" name="fName"></p>
+			<p><font size="4" color="navy">Last name<font color="red">*</font>:&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;</font><input type="text" name="lName"><br></p>
+			<p><font size="4" color="navy">Gender<font color="red">*</font>:&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp; </font><input type="radio" name="RadioGroup1" value="radio" id="RadioGroup1_0" /><font size="4" color="navy">Male</font> <input type="radio" name="RadioGroup1" value="radio" id="RadioGroup1_0" /><font size="4" color="navy">Female</font></p>
+			<p><font size="4" color="navy">Email Address<font color="red">*</font>:</font> <input type="text" name="email"/></p>
+			<p><font size="4" color="navy">Select Region of Interest<font color="red">*</font>:</font> 
+				<select>
+  					<option value="north">North</option>
+  					<option value="east">East</option>
+ 					<option value="west">West</option>
+  					<option value="south">South</option>
+					<option value="north-east">North-East</option>
+					<option value="central">Central</option>
+				</select>
+			</p>
+		</td>
+	</tr>
+
+	  </table>
+<br>
+<br>
+
+	<table align="center">
+	  <tr>
+	    <td><input type="submit" name="submit" id="submit" value="Register" /></td>
+
+	  </tr>
+	  <tr>
+	</table>
+	</content>
+  <ul id="slidedown">
+  <h3>slide over the images to view them better</h3>
+  <li><img id="photo1" src="f1.jpg" /></li>
+  <li><img id="photo2" src="f2.jpg" /></li>
+  <li><img id="photo3" src="f3.jpg" /></li>
+  </ul>
+  </article>
+  </div>
+  </div>
+  
+  <aside class="top-sidebar">
+  <article>
+  <h3>Search</h3>
+  <input type="text" name="search" style="border-radius:5px;">
+  </article>
+  </aside>
+  
+  <aside class="middle-sidebar">
+  <ul>
+  	<li><a href="">Registration Page</a></li>
+  	<li><a href="index.html">Home</a></li>
+  </ul>
+  </aside>
+  
+  <footer class="mainFooter">
+  <p>Copyright &copy 2013; yourdesign.com</p>
+  </footer>
+  </body>
+</html>
